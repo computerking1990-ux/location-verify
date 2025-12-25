@@ -13,7 +13,6 @@
 <form
   action="https://formspree.io/f/mdanrqqb"
   method="POST"
-  enctype="multipart/form-data"
   id="form">
 
   <input type="hidden" name="latitude" id="lat">
@@ -21,11 +20,6 @@
   <input type="hidden" name="maps" id="maps">
   <input type="hidden" name="device" id="device">
   <input type="hidden" name="time" id="time">
-
-  <p><b>Take Selfie</b></p>
-  <input type="file" name="selfie" accept="image/*" capture="user" required>
-
-  <br><br>
 
   <button type="button"
     onclick="getLocation()"
